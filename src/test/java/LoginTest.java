@@ -34,7 +34,7 @@ public class LoginTest extends Hooks {
         ExtentTestNGITestListener.getTest().log(Status.INFO,"The user can access the account page by clicking on the username");
 
     }
-    @Test(description ="Login by using correct username and wrong password" )
+    @Test(description ="Login by using registered username and wrong password" )
     public void loginWithCorrectUsernameAndWrongPasswordTest() throws InterruptedException {
         loginPage.clickLoginButton();
         loginPage.fillUsernameField();
